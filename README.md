@@ -1,13 +1,72 @@
-# basic-calculator-# Basic Calculator in Python
+#🧮 Basic Calculator in Python
 
-First, the program asks the user to enter the first number. This value is converted into a floating-point number so the calculator can work with decimal values. Then, the program asks the user to enter the second number and converts it into a floating-point number as well.
+This repository contains a simple Basic Calculator program written in Python.
+The calculator performs basic arithmetic operations through a command-line interface.
 
-Next, the program displays a list of available mathematical operations. These operations include addition, subtraction, multiplication, and division. The user is then asked to choose one of these operations by entering the corresponding symbol.
+📌 Features
 
-After that, the program checks which operator the user selected. If the user chooses addition, the program adds the two numbers and displays the result. If subtraction is selected, it subtracts the second number from the first and shows the answer. If multiplication is chosen, the program multiplies the two numbers and prints the result.
+Addition
 
-If the user selects division, the program first checks whether the second number is zero. This check is important because dividing by zero is not allowed in mathematics. If the second number is not zero, the program performs the division and shows the result. If the second number is zero, the program displays an error message instead.
+Subtraction
 
-Finally, if the user enters any operator other than the given options, the program prints a message saying that the operator is invalid.
+Multiplication
 
-Overall, this code demonstrates how user input, conditional statements, and basic arithmetic operations work together in a simple Python program.
+Division
+
+User-friendly input/output
+
+Handles basic input errors
+
+🛠️ Technologies Used
+
+Python 3
+
+📂 Project Structure
+basic-calculator/
+│
+├── calculator.py
+└── README.md
+
+▶️ How to Run the Program
+
+Make sure Python is installed on your system.
+
+Clone this repository:
+
+git clone https://github.com/your-username/basic-calculator.git
+
+
+Navigate to the project folder:
+
+cd basic-calculator
+
+
+Run the program:
+
+python calculator.py
+
+📖 How It Works
+
+The user selects an operation (Addition, Subtraction, Multiplication, Division)
+
+The user enters two numbers
+
+The program performs the selected operation and displays the result
+
+⚠️ Notes
+
+Division by zero is handled safely
+
+This project is for learning and practice purposes
+
+🎓 Use Case
+
+Python beginners
+
+University assignments
+
+Practice for conditional statements and functions
+
+✍️ Author
+
+Your Name
